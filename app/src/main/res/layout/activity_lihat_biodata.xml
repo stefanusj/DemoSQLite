@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_lihat_biodata"
+    tools:context="com.stefanus.sqlite.biodata.LihatBiodata">
+
+    <TextView
+        android:id="@+id/tvTNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/name"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvTTtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTNama"
+        android:layout_marginTop="@dimen/margin_lihat_biodata"
+        android:text="@string/ttl"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvTJk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTTtl"
+        android:layout_marginTop="@dimen/margin_lihat_biodata"
+        android:text="@string/gender"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvTAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTJk"
+        android:layout_marginTop="@dimen/margin_lihat_biodata"
+        android:text="@string/address"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvTNama"
+        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="@dimen/margin_lihat_biodata"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvTtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvTTtl"
+        android:layout_alignLeft="@id/tvNama"
+        android:layout_alignStart="@id/tvNama"
+        android:layout_below="@id/tvNama"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvJk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvTJk"
+        android:layout_alignLeft="@id/tvTtl"
+        android:layout_alignStart="@id/tvTtl"
+        android:layout_below="@id/tvTtl"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvTAlamat"
+        android:layout_alignLeft="@id/tvJk"
+        android:layout_alignStart="@id/tvJk"
+        android:layout_below="@id/tvJk"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

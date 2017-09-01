@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_lihat_biodata">36dp</dimen>
+    <dimen name="margin_biodata">16dp</dimen>
+    <dimen name="padding_name">16dp</dimen>
+    <dimen name="margin_fab">16dp</dimen>
+</resources>
